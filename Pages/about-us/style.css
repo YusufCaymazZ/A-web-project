@@ -9,9 +9,6 @@ body{
 	background-color: #040A16;
 	color: white ;
 }
-
-
-
 .thin-text {
   font-family: "Helvetica Neue Light", Arial, sans-serif;
   font-weight: normal;
@@ -94,11 +91,8 @@ nav label.cancel{
 	display: none;
 	
 }
-/*explanation-1*/
 
-
-/* Diğer stil tanımlamalarınızı burada bulundurun */
-
+/*Explanation*/
 .explanation-1 {
   position: relative;
   width: 100%;
@@ -134,18 +128,169 @@ nav label.cancel{
 	z-index: 1;
     padding: 0 20px;
 }
-/*footer*/
+
+
+
+.explanation-2 {
+  position: relative;
+  width: 100%;
+  height: 672px;
+	margin-top: 0;
+  color: #fff; /* Açıklama metin rengi */
+   /* Metni merkezlemek için */
+  padding: 80px 20px; /* Metin ile arka plan arasındaki boşluğu ayarlar */
+  box-sizing: border-box; /* padding'in içeriğe etkisini düzeltir */
+  margin-bottom: 20px;
+}
+
+.explanation-2-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity:0.4;
+	
+}
+
+.explanation-2-header-2,
+.explanation-2-paragraph {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px; /* Metin içeriğini yatayda kenarlardan içeri çeker */
+	text-align: left;
+}
+.explanation-2-footer{
+	text-align: end;
+	z-index: 1;
+    padding: 0 20px;
+}
+
+
+
+
+.explanation-4 {
+  position: relative;
+  width: 100%;
+  height: 672px;
+  margin-top: 0;
+  color: #fff; /* Açıklama metin rengi */
+   /* Metni merkezlemek için */
+  padding: 80px 20px; /* Metin ile arka plan arasındaki boşluğu ayarlar */
+  box-sizing: border-box; /* padding'in içeriğe etkisini düzeltir */
+  margin-bottom: 20px;
+}
+
+.explanation-4-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity:0.4;
+	
+}
+
+.explanation-4-header-2,
+.explanation-4-paragraph {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px; /* Metin içeriğini yatayda kenarlardan içeri çeker */
+	text-align: left;
+}
+.explanation-4-footer{
+	text-align: end;
+	z-index: 1;
+    padding: 0 20px;
+}
+
+
+.explanation-5 {
+  position: relative;
+  width: 100%;
+  height: 672px;
+	margin-top: 0;
+  color: #fff; /* Açıklama metin rengi */
+   /* Metni merkezlemek için */
+  padding: 80px 20px; /* Metin ile arka plan arasındaki boşluğu ayarlar */
+  box-sizing: border-box; /* padding'in içeriğe etkisini düzeltir */
+  margin-bottom: 20px;
+}
+
+.explanation-5-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity:0.4;
+	
+}
+
+.explanation-5-header-2,
+.explanation-5-paragraph {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px; /* Metin içeriğini yatayda kenarlardan içeri çeker */
+	text-align: left;
+}
+.explanation-5-footer{
+	text-align: end;
+	z-index: 1;
+    padding: 0 20px;
+}
+.explanation-6 {
+  position: relative;
+  width: 100%;
+  height: 672px;
+	margin-top: 0;
+  color: #fff; /* Açıklama metin rengi */
+   /* Metni merkezlemek için */
+  padding: 80px 20px; /* Metin ile arka plan arasındaki boşluğu ayarlar */
+  box-sizing: border-box; /* padding'in içeriğe etkisini düzeltir */
+  margin-bottom: 20px;
+}
+
+.explanation-6-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity:0.4;
+	
+}
+
+.explanation-6-header-2,
+.explanation-6-paragraph {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px; /* Metin içeriğini yatayda kenarlardan içeri çeker */
+	text-align: left;
+}
+.explanation-6-footer{
+	text-align: end;
+	z-index: 1;
+    padding: 0 20px;
+}
+
 .footer{
-	margin-top: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #040A16;
-    height: 20vh;
-    width: 100vw;
-    padding-top: 40px;
+	
+	  background: #040A16;
     color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Bu satırı ekleyin */
+    bottom: 0;
+    width: 100%;
 }
 .footer-content{
 	
@@ -226,9 +371,7 @@ nav label.cancel{
 }
 
 
-
-
-/*Media*/
+/* media sorgu: ;ları*/
 @media(max-width:940px){
 	.menu ul{
 		display: block;
